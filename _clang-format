@@ -3,7 +3,6 @@ Language:        Cpp
 # BasedOnStyle:  Google
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
-AlignArrayOfStructures: AIAS_Right
 AlignConsecutiveAssignments: true
 # 连续声明时，对齐所有声明的变量名
 AlignConsecutiveDeclarations: true
