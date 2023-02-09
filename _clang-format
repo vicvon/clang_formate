@@ -4,7 +4,8 @@ Language:        Cpp
 AccessModifierOffset: -4
 AlignAfterOpenBracket: Align
 AlignConsecutiveAssignments: false
-AlignConsecutiveDeclarations: false
+# 连续声明时，对齐所有声明的变量名
+AlignConsecutiveDeclarations: true
 AlignEscapedNewlines: Left
 AlignOperands:   true
 AlignTrailingComments: true
@@ -20,6 +21,7 @@ AlwaysBreakBeforeMultilineStrings: true
 AlwaysBreakTemplateDeclarations: true
 BinPackArguments: true
 BinPackParameters: true
+# 大括号换行，只有当 BreakBeforeBraces 设置为Custom时才有效
 BraceWrapping:   
   AfterClass:      true
   AfterControlStatement: false
